@@ -13,3 +13,6 @@ jobs:
 
             - name: read file
               run: cat README.md
+            
+            - name: git checkout repo
+              uses: actions/checkout@v4 
